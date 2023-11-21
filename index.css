@@ -1,0 +1,212 @@
+/* body {
+    background-color: #dadada;
+    padding: 10px;
+  }
+  
+  #Second-Upper p {
+    font-size: 14px;
+    border-bottom: 1px solid #cdcdcd;
+  }
+  
+  .photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    text-align: center;
+  } */
+  
+  /* #Upper-Container,
+  #First-Upper,
+  #Second-Upper {
+    list-style: none;
+    display: flex; 
+    padding: 0;
+  }
+  
+  #Upper-Container li,
+  #First-Upper li,
+  #Second-Upper li {
+    margin-right: 50px; 
+  }
+  
+  #Second-Upper li p {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 800px) {
+    
+    #Upper-Container {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    #Upper-Container li {
+      margin-right: 0; 
+      margin-bottom: 10px; 
+    }
+  } */
+  
+  /* .boxx {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1%;
+    background-color: #fff;
+  }
+  
+  .mid-boxx {
+    height: 420px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 1%;
+    background-color: #fff;
+  } */
+  
+  /* .boxx h3,
+  h5,
+  p,
+  li {
+    margin: 8px;
+  }
+  
+  .boxx p {
+    font-size: 12px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .Upper-Container{
+    display: flex;
+    flex-direction: column;
+  } */
+body{
+  background-color: rgba(180, 180, 180, 0.281);
+}
+  .top-container {
+    display: flex;
+    
+    
+  }
+  .first-container img{
+border-radius: 50%;
+width: 100px;
+border:10px solid white;
+  }
+  .second-container{
+    width: 500px;
+    padding: 0px 20px 20px 20px;
+  }
+  .fourth-container{
+    margin-left: 50px;
+  }
+ 
+  .container-table {
+    width: 20%; /* Make the table fill its container */
+    border-collapse: collapse; /* Remove default spacing between table cells */
+    border-top: 1px solid #000; /* Add a line at the top of the table */
+    border-bottom: none; /* Remove the line at the bottom of the table */
+margin: 50px;
+  }
+  
+  .container-table tr {
+    border-bottom: 1px solid #000; /* Add a horizontal line after each <tr> */
+  }
+  
+  .container-table td {
+    padding: 10px; /* Add spacing between <td> tags */
+    text-align: center; /* Center-align the content within <td> tags */
+  }
+  
+  .container-table td:last-child {
+    border-right: none; /* Remove the vertical line from the last <td> in each row */
+  }
+ .about-section{
+  /* display: flex; */
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+ }
+ .image-icons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+ }
+
+ .mega-box{
+  background-color: white;
+  padding: 10px;
+  width: 40%;
+  position:absolute;
+  left: 25%;
+  top: 32%;
+  margin-top: 9px;
+ }
+ .icons{
+  width: 50px;
+  height: 50px;
+  
+ }
+.jumbo-btn{
+  border: auto solid grey;
+  width: 220px;
+  /* padding: 1px; */
+  height: auto;
+  
+}
+.jumbo-btn span{
+  border: 1px solid grey;
+  width: 100px;
+  height: 20px;
+}
+#textarea{
+  width: 500px;
+  height: 50px;
+}
+.timeline{
+  position: absolute;
+  top: 30.5%;
+  right: 2%;
+}
+.image{
+  image-rendering: auto;
+}
+.btn{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+ 
+  
+}
+.feed{
+  background-color: rgba(189, 189, 189, 0.543);
+  
+}
+.icons_main{
+  float: left;
+  border-radius: 4px;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  
+}
+.icons{
+  float: left;
+  border-radius: 4px;
+  padding: 4px;
+  width: 35px;
+  height: 35px;
+  
+
+}
+.feed  p{
+  margin-left: 50px;
+  margin-top: 0px;
+  padding-top: 0px;
+  border-top: 0px;
+}
